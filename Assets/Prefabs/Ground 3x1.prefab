@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6804305557508048010}
   - component: {fileID: 6804305557508048011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: brick0_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6804305557808406645}
   - component: {fileID: 6804305557808406646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: brick0_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6804305558834417737}
   - component: {fileID: 6804305558834417736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground 3x1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6804305558928585765}
   - component: {fileID: 6804305558928585766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: brick0_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
