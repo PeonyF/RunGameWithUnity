@@ -52,4 +52,12 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(myRigidbody.velocity.x));
         animator.SetBool("Grounded", isGround);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "KillPlane")
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }
