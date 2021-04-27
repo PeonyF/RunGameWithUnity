@@ -17,11 +17,18 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
 
+    public Vector3 respwanPosition;
+
+    public LevelManagerController levelManagerController;
+
     void Start()
     {
 
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        respwanPosition = transform.position;
+        levelManagerController = FindObjectOfType<LevelManagerController>();
     }
 
     void Update()
@@ -57,7 +64,14 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.tag == "KillPlane")
         {
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
+            // transform.position = respwanPosition;
+            levelManagerController.Respawn();
+        }
+
+        if(collision.tag == "CheckPoint")
+        {
+            respwanPosition = collision.transform.position;
         }
     }
 }
