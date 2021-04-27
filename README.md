@@ -1,7 +1,7 @@
 # RunGameWithUnity
 ## Unity 기반의 달리는 게임(=쿠키런)
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/56629324/116290931-f9253980-a7ce-11eb-9617-117491d3dcdd.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/56629324/116291466-92545000-a7cf-11eb-8b32-c03c9a0b4d14.gif)
 
 #### 현재까지 구현 내용
 
